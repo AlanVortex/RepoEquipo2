@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin David Rodríguez Zúñiga</title>
+    <style>
+        :root {
+            --primary-color: #0077cc;
+            --background-color: #f9f9f9;
+            --text-color: #333;
+            --muted-color: #666;
+            --footer-color: #aaa;
+            --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: var(--card-shadow);
+            max-width: 720px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--muted-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .line {
+            height: 3px;
+            width: 60px;
+            background-color: var(--primary-color);
+            margin: 1rem auto;
+            border-radius: 4px;
+        }
+
+        .description {
+            font-size: 1rem;
+            color: #444;
+            line-height: 1.7;
+            text-align: left;
+        }
+
+        .description p {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            font-size: 0.85rem;
+            color: var(--footer-color);
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .description {
+                font-size: 0.95rem;
+                text-align: justify;
+            }
+
+            .profile-img {
+                width: 110px;
+                height: 110px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="https://avatars.githubusercontent.com/u/133398094?v=4" alt="Foto de Kevin" class="profile-img" />
+
+        <h1>Kevin David Rodríguez Zúñiga</h1>
+        <p class="subtitle">Estudiante de Desarrollo de Software</p>
+        <div class="line"></div>
+
+        <div class="description">
+            <p>👋 ¡Hola! Soy un estudiante de programación de 20 años de México con un gran interés en el desarrollo de software. Desde que descubrí la programación, me ha apasionado crear soluciones tecnológicas eficientes y funcionales.</p>
+
+            <p>📱 <strong>Desarrollo Android</strong> | 💻 <strong>Frontend con React</strong><br>
+                ⚙️ <strong>Backend con Django, Spring Boot y Node.js</strong></p>
+
+            <p>Me gusta trabajar en el desarrollo web y móvil, enfocándome en crear interfaces intuitivas y optimizar el rendimiento de las aplicaciones. Siempre estoy explorando nuevas tecnologías y mejorando mis habilidades. 🚀</p>
+
+            <p>🔍 Actualmente, sigo aprendiendo y perfeccionando mis conocimientos en desarrollo full stack. Me motiva resolver problemas, aprender de cada proyecto y seguir creciendo como programador.</p>
+
+            <p>🎯 Mi objetivo es convertirme en un desarrollador altamente capacitado, capaz de construir aplicaciones innovadoras y eficientes. Estoy abierto a nuevas oportunidades, colaboraciones y proyectos desafiantes.</p>
+
+            <p>📩 Si quieres conectar o trabajar juntos, no dudes en contactarme. ¡Siempre estoy listo para nuevos retos!</p>
+        </div>
+
+        <footer>
+            &copy; 2025 Kevin David Rodríguez Zúñiga. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+
+</html>
